@@ -3,7 +3,8 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-var menu = document.querySelector("nav h3")
+function hamburger(){
+    var menu = document.querySelector("nav h3")
 var full = document.querySelector("#full-scr")
 var navimg = document.querySelector("nav img")
 var main = document.querySelector(".cardss")
@@ -19,3 +20,20 @@ menu.addEventListener("click", function () {
         hello = 0
     }
 })
+}
+hamburger()
+
+window.addEventListener('scroll',reveal);
+function reveal() {
+    var reveals = document.querySelectorAll('.scroll');
+    for (var i = 0; i < reveals.length; i++) {
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+        if (revealtop < windowheight - revealpoint) {
+            reveals[i].classList.add('active');
+        } else {
+            reveals[i].classList.remove('active');
+        }
+    }
+}

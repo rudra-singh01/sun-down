@@ -1458,10 +1458,14 @@ nav h3 {
     font-family: leo;
     color: #000;
     padding-right: 2vw;
+    text-align: center;
 
 }
 #main-heading #product{
     font-size: 20vw;
+}
+#main-heading #imple{
+    font-size: 17.3vw;
 }
 #all-plan{
     height: 90vh;
@@ -1708,6 +1712,9 @@ nav h3 {
     #main-heading #product{
         font-size: 20vw;
     }
+    #main-heading #product{
+        font-size: 20vw;
+    }
     #all-plan{
         height: 90vh;
         width: 100%;
@@ -1939,4 +1946,15 @@ nav h3 {
             transform: translate(-10%, 10%) skew(-10deg);
         }
     }
+}
+
+.scroll{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.scroll.active{
+    transform: translate(0px);
+    opacity: 1;
 }
