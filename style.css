@@ -1056,7 +1056,51 @@ nav h3 {
 .text2 p {
     color: #2d2828;
 }
+.text4{
+    position: absolute;
+    z-index: 3;
+    top: 75%;
+    text-align: center;
+    left: 45.3%;
+    font-family: leo;
+}
+.text4 h2 {
+    color: white;
+}
 
+.text4 p {
+    color: #2d2828;
+}
+.text5{
+    position: absolute;
+    z-index: 3;
+    top: 80%;
+    text-align: center;
+    left: 15%;
+    font-family: leo;
+}
+.text5 h2 {
+    color: white;
+}
+
+.text5 p {
+    color: #2d2828;
+}
+.text6{
+    position: absolute;
+    z-index: 3;
+    top: 80%;
+    text-align: center;
+    right: 14%;
+    font-family: leo;
+}
+.text6 h2 {
+    color: white;
+}
+
+.text6 p {
+    color: #2d2828;
+}
 .cardss {
     height: 25vw;
     width: 100%;
@@ -1326,7 +1370,59 @@ nav h3 {
         color: #2d2828;
         font-size: 5vw;
     }
+    .text4{
+        position: absolute;
+        z-index: 3;
+        top: 25%;
+        text-align: center;
+        left: 30%;
+        font-family: leo;
+    }
+    .text4 h2 {
+        color: white;
+        font-size: 10vw
+    }
+    
+    .text4 p {
+        color: #2d2828;
+        font-size: 5vw;
 
+    }
+    .text5{
+        position: absolute;
+        z-index: 3;
+        top: 57%;
+        text-align: center;
+        left: 31%;
+        font-family: leo;
+    }
+    .text5 h2 {
+        color: white;
+        font-size: 10vw
+    }
+    
+    .text5 p {
+        color: #2d2828;
+        font-size: 5vw;
+
+    }
+    .text6{
+        position: absolute;
+        z-index: 3;
+        top: 95%;
+        text-align: center;
+        right: 29%;
+        font-family: leo;
+    }
+    .text6 h2 {
+        color: white;
+        font-size: 10vw
+    }
+    
+    .text6 p {
+        color: #2d2828;
+        font-size: 5vw;   
+    }
     .cardss {
         height: 350vw;
         width: 100%;
